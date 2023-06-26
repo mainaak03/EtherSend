@@ -1,7 +1,7 @@
 const Landing=() => {
 
     return (
-        <div className="flex flex-col lg:flex-row justify-center lg:justify-around h-[100%]">
+        <div className="flex flex-col lg:flex-row justify-center lg:justify-around h-full">
             {/* <img src="src\assets\eth.png" className="w-[70%] self-start"/> */}
             <div className="flex flex-col items-center self-center m-2 lg:w-[50%]">
                 <div className="font-Montserrat font-light text-5xl lg:text-8xl m-2 bg-gradient-to-r from-gray-100 to-gray-400 bg-clip-text text-transparent">
@@ -15,7 +15,7 @@ const Landing=() => {
                 </div>
                 {/* <img src="src\assets\core.png" className="w-[90%] relative" /> */}
             </div>
-            <img src="src\assets\eth.png" className="w-[50%] self-center"/>
+            <img src="..\public\eth.png" className="w-[50%] self-center"/>
         </div>
     )
 };

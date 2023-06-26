@@ -33,10 +33,10 @@ const MainEx=() => {
     return (
         <div className="flex flex-col md:flex-row w-screen lg:w-full lg:h-full items-center justify-center">
             <div className="flex flex-grow flex-col bg-gray-800 text-gray-100 p-4 lg:p-6 m-3 lg:m-5 md:w-1/2 md:self-stretch lg:h-[90%] items-center justify-between rounded-md">
-                <img src="src\assets\doge-computer.png" className="lg:h-[60%]" />
+                <img src="..\public\doge-computer.png" className="lg:h-[60%]" />
             {/* <img src="src\assets\developers-eth-blocks.png" className="h-[100%]" /> */}
                 <div className="flex flex-col mb-5 mt-5">
-                    <div className="text-3xl lg:text-6xl m-1 lg:m-3 bg-gradient-to-r from-gray-100 to-gray-400 bg-clip-text text-transparent">
+                    <div className="text-3xl lg:text-6xl font-light m-1 lg:m-3 bg-gradient-to-r from-gray-100 to-gray-400 bg-clip-text text-transparent">
                         Send Crypto across the world.
                     </div>
                     <div className="text-md tracking-wide lg:text-xl font-light m-1 lg:m-3 bg-gradient-to-r from-gray-100 to-gray-200 bg-clip-text text-transparent">
@@ -49,7 +49,7 @@ const MainEx=() => {
 
             <div className="flex flex-grow flex-col bg-gray-800 text-gray-100 p-4 lg:p-6 m-3 lg:m-5 md:w-1/2 md:self-stretch lg:h-[90%] items-center justify-between lg:justify-evenly rounded-md">
                 <div className="flex flex-col justify-between w-4/5 lg:w-3/4 aspect-video p-3 rounded-lg bg-gradient-to-tr from-emerald-400 to-cyan-400">
-                    <img src="src\assets\eth-logo.png" className="h-6 lg:h-14 self-start" />
+                    <img src="..\public\eth-logo.png" className="h-6 lg:h-14 self-start" />
                     <div className="flex flex-col antialiased">
                         <span className="text-sm lg:text-xl font-normal bg-gradient-to-br from-gray-900 to-gray-600 bg-clip-text text-transparent">{currentWallet||"NO ACCOUNT CONNECTED"}</span>
                         <span className="text-xs lg:text-lg tracking-wider font-light text-gray-900">ADDRESS</span>

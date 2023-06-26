@@ -2,10 +2,10 @@ const Infographic=() => {
     return (
         <div className="flex flex-col lg:flex-row justify-evenly items-center mt-12 mb-12 lg:p-2 lg:m-2 lg:mt-10 lg:mb-10">
             <div className="flex flex-col lg:w-1/2 items-center lg:self-stretch justify-evenly">
-                <div className="text-center text-3xl lg:text-6xl m-1 lg:p-5 lg:m-3 bg-gradient-to-r from-gray-100 to-gray-400 bg-clip-text text-transparent">
+                <div className="text-center font-light text-3xl lg:text-6xl m-1 lg:p-5 lg:m-3 bg-gradient-to-r from-gray-100 to-gray-400 bg-clip-text text-transparent">
                     Why Ethereum?
                 </div>
-                <img className="w-2/4 lg:w-3/4 m-1 p-1" src="\src\assets\what-is-ethereum.png" />
+                <img className="w-2/4 lg:w-3/4 m-1 p-1" src="..\public\what-is-ethereum.png" />
             </div>
             <div className="flex flex-col w-4/5 lg:w-3/4 p-1 text-center lg:text-left lg:border-l inset-0 border-gray-500">
                 <div className="flex flex-col tex-sm lg:text-xl font-light m-1 lg:m-5 text-gray-200">
