@@ -15,7 +15,7 @@ const Landing=() => {
                 </div>
                 {/* <img src="src\assets\core.png" className="w-[90%] relative" /> */}
             </div>
-            <img src="..\public\eth.png" className="w-[50%] self-center"/>
+            <img src="\eth.png" className="w-[50%] self-center"/>
         </div>
     )
 };
